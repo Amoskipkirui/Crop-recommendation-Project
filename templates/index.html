@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Recommendation Form</title>
+</head>
+<body>
+    <h1>Crop Recommendation</h1>
+    <form method="POST" action="/predict">
+        <label for="N">N (Nitrogen):</label>
+        <input type="text" name="N" required><br>
+
+        <label for="K">K (Potassium):</label>
+        <input type="text" name="K" required><br>
+
+        <label for="temperature">Temperature:</label>
+        <input type="text" name="temperature" required><br>
+
+        <label for="humidity">Humidity:</label>
+        <input type="text" name="humidity" required><br>
+
+        <label for="pH">pH:</label>
+        <input type="text" name="pH" required><br>
+
+        <label for="rainfall">Rainfall:</label>
+        <input type="text" name="rainfall" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
